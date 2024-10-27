@@ -70,12 +70,12 @@ app_license = "mit"
 # before_install = "ffcm_pusher.install.before_install"
 
 doc_events = {
-    "Notification Log": {
-        "before_insert": "fcm_pusher.push_notification.send_push_notification"
+    "FFCM Notification": {
+        "on_update": "ffcm_pusher.push_notifications.send_push_notification"
     },
     "FFCM Settings": {
         # initialize firebase with google auth for firebase-admin sdk
-        "on_update": "ffcm_pusher.push_notification.initialize_firebase_pusher"
+        "on_update": "ffcm_pusher.push_notifications.initialize_firebase_pusher"
     },
 }
 

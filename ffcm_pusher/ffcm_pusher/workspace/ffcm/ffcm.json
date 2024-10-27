@@ -1,0 +1,53 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"-04snuYWdO\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">FFCM</span>\",\"col\":12}},{\"id\":\"NTueU3It03\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Notifications\",\"col\":3}},{\"id\":\"pEgTSTCODt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Settings\",\"col\":3}},{\"id\":\"9Go_ANDjWU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Devices\",\"col\":3}}]",
+ "creation": "2024-10-27 01:25:25.607497",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "notification-with-indicator",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "FFCM",
+ "links": [],
+ "modified": "2024-10-27 01:29:35.359977",
+ "modified_by": "Administrator",
+ "module": "Ffcm Pusher",
+ "name": "FFCM",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Notifications",
+   "link_to": "FFCM Notification",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Settings",
+   "link_to": "FFCM Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Devices",
+   "link_to": "FFCM Device",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "FFCM"
+}
