@@ -1,0 +1,1 @@
+Welcome to Domino Connect! We're thrilled to have you onboard. Our mission is to bring Domino into the mainstream, both live and digital. Thank you for your support!

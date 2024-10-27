@@ -5,29 +5,33 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "user",
+  "device_user",
   "device_token"
  ],
  "fields": [
   {
-   "fieldname": "user",
-   "fieldtype": "Link",
+   "fieldname": "device_token",
+   "fieldtype": "Text",
    "in_list_view": 1,
-   "label": "User",
-   "options": "User",
+   "label": "Device Token",
    "reqd": 1
   },
   {
-   "fieldname": "device_token",
-   "fieldtype": "Data",
+   "fieldname": "device_user",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
    "in_list_view": 1,
-   "label": "Device Token",
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Device User",
+   "options": "User",
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-26 14:26:50.594876",
+ "modified": "2024-10-27 01:49:34.446115",
  "modified_by": "Administrator",
  "module": "Ffcm Pusher",
  "name": "FFCM Device",

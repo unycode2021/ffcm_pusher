@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2024-10-27 00:29:32.712449",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "FFCM Device",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Welcome to Domino Connect! We're thrilled to have you onboard. Our mission is to bring Domino into the mainstream, both live and digital. Thank you for your support!",
+ "message_type": "Markdown",
+ "modified": "2024-10-27 00:29:32.712449",
+ "modified_by": "Administrator",
+ "module": "Ffcm Pusher",
+ "name": "NewDominoConnectDevice",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "user"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Domino Administrator",
+ "sender_email": "admin@domino101.com",
+ "subject": "Domino Connect User"
+}
