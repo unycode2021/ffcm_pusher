@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-26 14:24:49.510619",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_id",
+  "api_version",
+  "web_api_key",
+  "google_auth_file"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "api_version",
+   "fieldtype": "Data",
+   "label": "API Version"
+  },
+  {
+   "fieldname": "web_api_key",
+   "fieldtype": "Data",
+   "label": "Web API Key"
+  },
+  {
+   "description": ".json file used for service account authentication. PLEASE ENSURE ITS FLAGGED AS PRIVATE when uploading in file manager",
+   "fieldname": "google_auth_file",
+   "fieldtype": "Attach",
+   "label": "Google Auth File",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-10-26 19:30:13.316642",
+ "modified_by": "Administrator",
+ "module": "Ffcm Pusher",
+ "name": "FFCM Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

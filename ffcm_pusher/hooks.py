@@ -68,7 +68,16 @@ app_license = "mit"
 # ------------
 
 # before_install = "ffcm_pusher.install.before_install"
-# after_install = "ffcm_pusher.install.after_install"
+
+doc_events = {
+    "Notification Log": {
+        "before_insert": "fcm_pusher.push_notification.send_push_notification"
+    },
+    "FFCM Settings": {
+        # initialize firebase with google auth for firebase-admin sdk
+        "on_update": "ffcm_pusher.push_notification.initialize_firebase_pusher"
+    },
+}
 
 # Uninstallation
 # ------------
@@ -226,4 +235,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
