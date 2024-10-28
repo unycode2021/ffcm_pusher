@@ -1,5 +1,4 @@
 import frappe
-from frappe import enqueue
 
 
 @frappe.whitelist()
@@ -10,3 +9,4 @@ def register_device(token):
        
        device = frappe.get_doc({"doctype":"FFCM Device","device_user":user.name,"device_token":token})
        device.insert(ignore_permissions=True)
+       frappe.db.commit()
